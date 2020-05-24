@@ -1,0 +1,19 @@
+{
+  "name": "wallclock",
+  "version": "1.0.0",
+  "description": "Server that return the wall-clock time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manjila Nakarmi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "method": "^2.0.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "override": "^0.0.1"
+  }
+}
