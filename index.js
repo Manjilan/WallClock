@@ -24,6 +24,6 @@ app.post("/", function(req, res){
   res.send((new Date(time)).toTimeString().split(" ")[0]);
 });
 //-------------Server------------->
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 4000, function () {
     console.log('Checkout http://localhost:3000/');
 });
