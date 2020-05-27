@@ -19,9 +19,9 @@ app.get("/", function(req, res){
 });
 
 app.post("/", function(req, res){
-  if(req.body = ""){
-    req.body.timezone = new Date().toLocaleString("en-US");
-  }
+  // if(req.body = ""){
+  //   req.body.timezone = new Date().toLocaleString("en-US");
+  // }
   var time = new Date().toLocaleString("en-US", {timeZone: req.body.timezone});
   console.log((new Date(time)).toTimeString().split(" ")[0]);
   res.json((new Date(time)).toTimeString().split(" ")[0]);
