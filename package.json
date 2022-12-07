@@ -9,7 +9,7 @@
   "author": "Manjila Nakarmi",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "method": "^2.0.0",
     "method-override": "^3.0.0",
     "moment": "^2.26.0",
